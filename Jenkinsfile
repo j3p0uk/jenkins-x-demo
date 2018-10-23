@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-      ORG               = 'j3p0uk-hotmail-com'
+      ORG               = 'j3p0uk'
       APP_NAME          = 'demo'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
