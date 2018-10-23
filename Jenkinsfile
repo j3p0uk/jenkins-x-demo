@@ -39,7 +39,7 @@ pipeline {
         }
         steps {
 
-            git 'https://github.com/j3p0uk-hotmail-com/jenkins-x-demo.git'
+            git 'https://github.com/j3p0uk/jenkins-x-demo.git'
 
             sh "git config --global credential.helper store"
             sh "jx step validate --min-jx-version 1.1.73"
